@@ -50,12 +50,12 @@ body {
     color: rgb(89, 1, 89);
     align-items: center;
     font-weight: 500;
-    /* padding-bottom: 6px; */
+    padding-bottom: 8px;
 }
 
 .details1, 
 .details2 {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -80,8 +80,9 @@ body {
     font-weight: 400;
     letter-spacing: 0px;
 }
+
 .form-area {
-    margin: 20px 0 20px 0;
+    margin: 10px 0 10px 0;
 }
 
 .form-area form input,
