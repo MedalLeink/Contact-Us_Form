@@ -15,16 +15,16 @@ body {
     justify-content: center;
 }
 
-.main_cont {
+.main-cont {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
 }
 
 .wrapper {
     background-color: #fff;
-    padding: 3rem;
+    padding: 4rem;
     /* max-width: 400px; */
     margin-left: 100px;
     margin-right: 100px;
@@ -34,13 +34,13 @@ body {
 }
 
 .details {
-    width: 26%;
+    /* width: 30%; */
     border-right: 2px solid lightgray;
-    /* padding-right: 1rem; */
+    padding-right: 2.5rem;
 }
 
 .details h4 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
 }
 
@@ -68,5 +68,10 @@ body {
     color: gray;
     font-weight: 300;
     letter-spacing: 0.5px;
+}
+
+.message h3{
+    color: rgb(89, 1, 89);
+    font-size: 24px;
 }
 
