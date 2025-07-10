@@ -50,7 +50,7 @@ body {
     color: rgb(89, 1, 89);
     align-items: center;
     font-weight: 500;
-    padding-bottom: 6px;
+    /* padding-bottom: 6px; */
 }
 
 .details1, 
@@ -94,6 +94,7 @@ body {
     border-radius: 4px;
     font-size: 16px;
     color: black;
+    letter-spacing: 0.1px;
 }
 
 .form-area form textarea {
@@ -104,6 +105,9 @@ body {
 
 .form-area .send {
     font-size: 16px;
-    width: 10%;
-    background-color: #fff;
+    width: 15%;
+    background-color: rgb(89, 1, 89);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
 }
